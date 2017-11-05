@@ -1,12 +1,8 @@
 env:
    global:
      - CONAN_REFERENCE: "zlib/1.2.11"
-     - CONAN_USERNAME: "conan"
-     - CONAN_LOGIN_USERNAME: "lasote"
-     - CONAN_CHANNEL: "testing"
-     - CONAN_UPLOAD: "https://api.bintray.com/conan/conan-community/conan"
-     - CONAN_STABLE_BRANCH_PATTERN: "release/*"
-     - CONAN_UPLOAD_ONLY_WHEN_STABLE: 1 # Will only upload when the branch matches "release/*"
+     - CONAN_USERNAME: "jjones646"
+     - CONAN_CHANNEL: "stable"
 
 linux: &linux
    os: linux

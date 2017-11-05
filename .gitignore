@@ -1,4 +1,4 @@
-build
+[Bb]uild
 *.pyc
 activate*
 deactivate*
